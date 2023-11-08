@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+.container {
+    width: 93%;
+    height: auto;
+    margin: 50px;
+    box-shadow: 5px 5px 30px 0px #9B9C9B80;
+    border-radius: 20px;
+    background-color: #ffffff;
+    color: black;
+   padding-top: 2%;
+
+}
+
+.container span {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    margin-left: 5%;
+}
+
+.info {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 4%;
+    justify-content: space-between;
+    margin-left: 5%;
+    width: 80%;
+}
+
+
+
+.container p {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #002C4B;
+}
+
+.medicine input {
+    width: 200px;
+    height: 30px;
+    border: none;
+    border-radius: 20px;
+    background-color: #F2F6FF;
+    color: #3D3D3D;
+    margin-top: 15px;
+    padding: 20px;
+}
+
+.info select {
+    width: 150px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    background-color: #F2F6FF;
+    color: #3D3D3D;
+    margin-top: 15px;
+    padding: 10px;
+}
+
+
+.bottom button {
+    background-color: #00ACC1;
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+    color: #ffffff;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 18px;
+    border: none;
+    margin-left: 80%;
+    margin-bottom: 3%;
+
+}

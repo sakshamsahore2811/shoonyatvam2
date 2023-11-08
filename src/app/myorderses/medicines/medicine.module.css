@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+.container {
+    width: 97%;
+    height: auto;
+    margin: 20px 0px 20px 20px;
+    box-shadow: 5px 5px 30px 0px #9B9C9B80;
+    border-radius: 20px;
+    background-color: #ffffff;
+    color: black;
+    padding: 2%;
+
+}
+
+.container span {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    margin-left: 2%;
+    color: #3C3C3C;
+}
+
+.orders {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    margin-top: 2%;
+}
+
+
+
+.container p {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: #3C3C3C;
+    margin-left: 3%;
+}
+
+.medicine {
+    margin: 1rem;
+}
+
+.medicine input {
+    width: 250px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    background-color: #F2F6FF;
+    color: #002C4B;
+    margin-top: 15px;
+    padding: 20px;
+}
+
+.medicine select {
+    width: 250px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    background-color: #F2F6FF;
+    color: #000000;
+    margin-top: 15px;
+    padding: 20px;
+}
+
+
+.container table {
+    border-collapse: collapse;
+    background-color: #F2F6FF;
+    color: #000000;
+    width: 100%;
+    margin-top: 2%;
+}
+
+.tables th {
+    height: 80px;
+    background-color: #F2F6FF;
+    font-family: 'Inter';
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 18px;
+    color: #3C3C3C;
+    border: none;
+}
+
+
+.tables tbody td {
+    border: 1px solid #dddddd;
+    background-color: white;
+    padding: 8px;
+    border: none;
+    font-family: 'Inter';
+    /* padding: 1.5%; */
+    padding-left: 3%;
+}
+
+.tables tbody td:nth-child(5) span img {
+
+    margin: 5px 7px 0px 0px;
+}
+
+.tables tbody td:nth-child(5) span {
+    font-size: 15px;
+    background-color: #EBF8F5;
+    color: #059C42;
+    border-radius: 30px;
+    padding: 3px;
+}
+
+
+
+.tables tbody td input {
+    margin: 0px 5px 0px 7px;
+}
+
+.tables tbody td label {
+    color: #3C3C3C;
+    font-family: 'Inter';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.bottom {
+    margin-left:61rem;
+    margin-top: 3%;
+}
+
+
+
+.bottom p {
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 20px;
+    color: #002C4B;
+}
+
+.bottom button {
+    width: 220px;
+    height: 43px;
+    border: none;
+    border-radius: 5px;
+    background-color: #00B5C1;
+    color: #FFFFFF;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    margin-top: 2rem;
+    margin-left: 4rem;
+}
+

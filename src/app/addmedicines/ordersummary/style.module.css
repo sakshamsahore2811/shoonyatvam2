@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+.container {
+    width: 93%;
+    height: auto;
+    margin: 50px;
+    box-shadow: 5px 5px 30px 0px #9B9C9B80;
+    border-radius: 20px;
+    background-color: #F2F6FF;
+    color: black;
+    padding: 3%;
+
+}
+
+.order_summary {
+    border-radius: 20px 20px 0px 0px;
+}
+
+.order_summary h4 {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.container table {
+    border-collapse: collapse;
+    background-color: #F2F6FF;
+    width: 100%;
+    margin-top: 2%;
+}
+
+.tables th {
+    color: #FFF;
+    font-family: 'Inter';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-right: 1px solid #FFF;
+    border-bottom: 1px solid #FFF;
+    background: #002C4B;
+    padding: 1rem;
+
+}
+
+.tables tr {
+    box-shadow: 0px 2px 7px 0.5px #00000040;
+}
+
+.tables tbody td {
+    color: #3D3D3D;
+    font-family: 'Inter';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-right: 2px solid #FFF;
+    border-bottom: 2px solid #FFF;
+    background: #DAE5FF;
+    padding: 1rem;
+    padding-left: 3rem !important ;
+
+    /* font-family: 'Inter';
+    font-size: 20px;
+    line-height: 24px;
+    color: #3C3C3C;
+    background-color: #ffffff;
+    padding: 20px;
+     */
+
+}
+
+.tables tbody tr td:first-child {
+    font-weight: 600;
+    line-height: 20px;
+    color: #3D3D3D;
+}
+
+.tables tbody tr td:nth-child(2) {
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+.tables tbody tr td:nth-child(3) {
+    font-family: 'Inter';
+    font-weight: 520;
+    font-size: 20px;
+    line-height: 23px;
+}

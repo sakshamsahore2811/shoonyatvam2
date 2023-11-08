@@ -1,0 +1,21 @@
+
+
+
+.mid{
+    display: flex;
+    margin-left: 32rem;
+    margin-top: 1.5rem;
+  }
+  .mid span{
+    margin: 0rem 0.5rem 0rem 0.5rem;
+    padding-top: -1rem;
+  }
+  .mid img{
+    margin-bottom:-0.5rem ;
+    margin-left: 1rem;
+  }
+  
+  .mid_1{
+    border-right: 1px solid white;
+    height: 2rem;
+  }
